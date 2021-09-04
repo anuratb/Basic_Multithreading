@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 #include <pthread.h>
 using namespace std;
-
+#define int long long int
 void solve(int x)
 {
     //prime checker
@@ -14,7 +14,7 @@ void solve(int x)
     return ;
 
 }
-int main()
+signed main()
 {
     int t;
     cin>>t;
